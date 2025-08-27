@@ -32,7 +32,9 @@
             line-height: 1.2;
             margin-bottom: 1rem;
         }
-        
+        @media(max-width:768px){
+                h1, h2, h3, h4, h5, h6{
+                        font-size:2rem;}}
         .container {
             width: 90%;
             max-width: 1200px;
@@ -1025,4 +1027,5 @@ transform: translateY(-3px);
                 width: 100%;
                 max-width: 300px;
             }
+
         }
