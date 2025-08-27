@@ -948,8 +948,8 @@ transform: translateY(-3px);
             
             .hero-text,
             .hero-image,
-            .about-text,
             .about-image,
+            .about-text,
             .contact-info,
             .contact-form {
                 padding: 0;
@@ -1033,5 +1033,6 @@ transform: translateY(-3px);
             }
 
         }
+
 
 
