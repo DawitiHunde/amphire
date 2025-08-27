@@ -145,7 +145,7 @@
 }
         
         .nav-links {
-            display: flex;
+            display: none;
             list-style: none;
         }
         
@@ -171,6 +171,10 @@
             border-radius: 30px;
             font-weight: bold;
             animation: blink 2s infinite;
+        }
+
+@media (min-width:768px){
+            .nav-links{display: flex!important}
         }
         
         @keyframes blink {
@@ -1029,3 +1033,4 @@ transform: translateY(-3px);
             }
 
         }
+
