@@ -390,7 +390,7 @@
             padding: 30px;
             box-shadow: var(--shadow);
             transition: transform 0.3s ease;
-            height: 370px;
+            height: 420px;
             
         }
         
@@ -1033,6 +1033,7 @@ transform: translateY(-3px);
             }
 
         }
+
 
 
 
